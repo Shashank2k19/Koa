@@ -120,9 +120,9 @@
                 <!-- Contact us form  -->
                 <div class="col-lg-6 mt-4 mt-lg-0">
                   <form
-                    action="forms/contact.php"
+                    action="mail.php"
                     method="post"
-                    role="form"
+                    
                     class="php-email-form"
                   >
                     <div>
@@ -138,6 +138,9 @@
                           placeholder="Name"
                           required
                         />
+                        <div class="invalid-feedback">
+                          Name must be between 3 and 10 characters
+                        </div>
                       </div>
                       <div class="col-md-6 form-group mt-3">
                         <input

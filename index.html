@@ -36,7 +36,15 @@
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-    <!-- Template Main CSS File -->
+<!-- oWL -->
+   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    /> 
+
+    <!-- Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
   </head>
 
@@ -45,14 +53,14 @@
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center justify-content-between">
         <!-- <h1 class="logo"><a href="index.html">KOA</a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- Uncomment to use an image logo -->
         <a href="index.html" class="logo"
           ><img src="assets/img/koa.png" alt="KOA" class="img-fluid"
         /></a>
 
         <nav id="navbar" class="navbar">
           <ul>
-            <!-- <li><a class="nav-link scrollto active" href="#hero">Home</a></li> -->
+            
             <li><a class="nav-link scrollto" href="#about">About Us</a></li>
             <li>
               <a class="nav-link scrollto" href="#product">Our Product </a>
@@ -73,20 +81,69 @@
     </header>
     <!-- End Header -->
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero">
-      <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
-        <h1>K O A</h1>
-        <h2>The Best You Can Trust</h2>
-        <div class="d-flex">
-          <a href="#about" class="btn-get-started scrollto">Become a Dealer</a>
-          <a href="#" class="btn-get-started ms-5 scrollto"
-            ><span>Contact via Whatsapp</span></a
-          >
+ <section id="hero">
+  <div id="heroCarousel" data-bs-interval="5000" class=" slide carousel-fade" data-bs-ride="carousel">
+
+    <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+    <div class="carousel-inner" role="listbox">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active" style="background-image: url(assets/img/slide-1.jpg)">
+        <div class="carousel-container">
+          <div class="container">
+            <h2 class="animated fadeInDown">K O A</span></h2>
+            <p class="animated fadeInUp">The Best You Can Trust </p>
+           
+              <a href="dealer.html" class="btn-get-started scrollto">Become a Dealer</a>
+              <a  href="http://wa.me/7755057628"
+              target="_blank" class="btn-get-started ms-5 mt-3  scrollto"
+                ><span>Contact via Whatsapp</span></a>
+            
+          </div>
         </div>
       </div>
-    </section>
-    <!-- End Hero -->
+
+      <!-- Slide 2 -->
+      <div class="carousel-item" style="background-image: url(assets/img/slide-2.jpg)">
+        <div class="carousel-container">
+          <div class="container">
+            <h2 class="animated fadeInDown">K O A </h2>
+            <p class="animated fadeInUp">The Best You CAn Trust </p>
+            <a href="dealer.html" class="btn-get-started scrollto">Become a Dealer</a>
+              <a  href="http://wa.me/7755057628"
+              target="_blank" class="btn-get-started ms-5 mt-3 scrollto"
+                ><span>Contact via Whatsapp</span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item" style="background-image: url(assets/img/slide-3.jpg)">
+        <div class="carousel-container">
+          <div class="container">
+            <h2 class="animated fadeInDown">K O A</h2>
+            <p class="animated fadeInUp">The Best You Can Trust</p>
+            <a href="dealer.html" class="btn-get-started scrollto">Become a Dealer</a>
+              <a  href="http://wa.me/7755057628"
+              target="_blank" class="btn-get-started ms-5 mt-3 scrollto"
+                ><span>Contact via Whatsapp</span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+    </a>
+
+  </div>
+</section><!-- End Hero -->
+
 
     <main id="main">
       <!-- ======= About Section ======= -->
@@ -209,11 +266,42 @@
           <div class="section-title">
             <p style="color: white">Our products</p>
           </div>
+          <div class="row">
+            <div
+              class="col-lg-12 col-md-12 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <p class="aboutText">
+                At KOA, we aim to become a one-stop shop for all your fastening needs. We provide a diverse range of high-quality durable screws to help you build anything you want!
+              </p>
+            </div>
+          </div>
           <div class="container" data-aos="fade-up"> 
             <img src="assets/img/product.png" alt="product" class=" img-responsive img-fluid">
 
           </div>
 
+          <div class="row">
+            <div
+              class="col-lg-12 col-md-12 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+            <div class="wrapper">
+              <div class="carousel owl-carousel">
+                <div class="card card-1">CSK PHILLIPS</div>
+                <div class="card card-2">WOOD SCREW</div>
+                <div class="card card-3">pAN SCREW</div>
+                <div class="card card-4">Chipboard screw</div>
+                <div class="card card-5">Machine Screw</div>
+                <div class="card card-5">dry Wall screw</div>
+                <div class="card card-5">carriage screw</div>
+                <div class="card card-5">Csk slotted</div>
+              </div>
+            </div>
+            </div>
+          </div>
           <!-- <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
@@ -1021,5 +1109,7 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <!-- JS for Carousel -->
   </body>
 </html>
