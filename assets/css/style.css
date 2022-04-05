@@ -1626,15 +1626,16 @@ ul {
 }
 
 .wrapper .card .owlcar_name {
+  font-size: 16px;
   background-color: #2957a3;
   color: white;
   text-align: left;
   padding-left: 20px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .wrapper .card .owlcar_name:hover {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
 }
 

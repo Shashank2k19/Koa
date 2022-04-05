@@ -51,7 +51,7 @@
   /* display: flex; */
   align-items: center;
   justify-content: center;
-  padding: 30px;
+  padding-bottom: 30px;
   padding-top: 40px;
   width: 100%;
   background: #fff;
@@ -100,4 +100,14 @@
   width: 290px;
   margin-left: 120px;
   margin-top: 10px;
+}
+
+.aside-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #263d4d;
 }
