@@ -1,0 +1,103 @@
+.screwabout .content {
+  background-color: #f6f9ff;
+  padding: 40px;
+}
+.screwabout h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+.screwabout h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #012970;
+}
+.screwabout p {
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+}
+.screwabout .btn-read-more {
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #4154f1;
+  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+}
+.screwabout .btn-read-more span {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.screwabout .btn-read-more i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.screwabout .btn-read-more:hover i {
+  transform: translateX(5px);
+}
+
+/*--------------------------------------------------------------
+# usage
+--------------------------------------------------------------*/
+.usage {
+  padding: 10px 0 10px;
+}
+.usage .usage-box {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  padding-top: 40px;
+  width: 100%;
+  background: #fff;
+  /* box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08); */
+}
+.usage .usage-box img {
+  width: 70px;
+}
+
+.usages .usage-box p {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+}
+
+.usages h4 {
+  font-size: 12px;
+  font-weight: 600;
+}
+.usages .usage-box:hover {
+  color: #2957a3;
+}
+.usage .usage-box.active {
+  background: #2957a3;
+  color: #fff;
+  border-color: #2957a3;
+}
+
+.tabsalign ul li {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  position: relative;
+}
+
+.tab_content_align ul li {
+  margin-top: 10px;
+  margin-left: 80px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+
+.spec-img {
+  width: 290px;
+  margin-left: 120px;
+  margin-top: 10px;
+}

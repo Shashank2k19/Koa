@@ -712,8 +712,9 @@ ul {
   padding: 0;
 }
 .content ul li {
+  margin-top: 10px;
   padding-bottom: 10px;
-  padding-left: 45px;
+  padding-left: 30px;
   position: relative;
 }
 .content ul i {
@@ -721,7 +722,7 @@ ul {
   color: #2957a3;
   position: absolute;
   left: 0;
-  top: -10px;
+  top: 5px;
 }
 .content p:last-child {
   margin-bottom: 0;
@@ -1617,16 +1618,35 @@ ul {
   color: black;
   text-align: center;
   margin: 20px 0;
-  /* line-height: 250px; */
+  line-height: 35px;
   font-size: 20px;
   font-weight: 100;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper .card .owlcar_name {
+  background-color: #2957a3;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  font-weight: 500;
+}
+
+.wrapper .card .owlcar_name:hover {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.wrapper .card .owlcar_name i {
+  color: white;
+  padding-left: 90px;
+  padding-top: 7px;
 }
 
 .owl-dots {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .owl-dot {
   height: 15px;
@@ -1650,7 +1670,7 @@ ul {
   border: 0;
 }
 .features .nav-link {
-  border: 1px solid #b5ccdb;
+  /* border: 1px solid #b5ccdb; */
   padding: 15px;
   transition: 0.3s;
   color: #15222b;
@@ -1660,7 +1680,7 @@ ul {
   justify-content: center;
 }
 .features .nav-link i {
-  padding-right: 15px;
+  padding-right: 5px;
   font-size: 48px;
 }
 .features .nav-link h4 {
@@ -1714,15 +1734,6 @@ ul {
   margin-bottom: 0;
 }
 
-/* Table rows Color  */
-.table-warning {
-  background-color: #fff9d5;
-}
-
-.table-primary {
-  background-color: #ccecf9;
-}
-
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -1732,9 +1743,9 @@ ul {
 .counts .count-box {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 30px;
-  padding-top: 40px;
+  /* justify-content: center; */
+
+  padding: 10px 30px 10px;
   width: 100%;
   background: #fff;
   /* box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08); */
@@ -1751,7 +1762,6 @@ ul {
   font-family: "Nunito", sans-serif;
   font-size: 14px;
 }
-
 .counts h4 {
   font-size: 18px;
   font-weight: 600;
@@ -1761,6 +1771,49 @@ ul {
   color: #2957a3;
 }
 .counts .count-box.active {
+  background: #2957a3;
+  color: #fff;
+  border-color: #2957a3;
+}
+
+/*--------------------------------------------------------------
+# contact_links
+--------------------------------------------------------------*/
+.contact_links {
+  padding: 70px 0 60px;
+}
+.contact_links .contact_link-box {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  /* padding: 30px; */
+  padding-top: 20px;
+  width: 100%;
+  background: #fff;
+  /* box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08); */
+}
+.contact_links .contact_link-box i {
+  font-size: 42px;
+  line-height: 0;
+  margin-right: 20px;
+}
+
+.contact_links .contact_link p {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+}
+.contact_links h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 10px;
+}
+.contact_links .contact_link-box:hover {
+  color: #2957a3;
+}
+.contact_links .contact_link-box.active {
   background: #2957a3;
   color: #fff;
   border-color: #2957a3;
