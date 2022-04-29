@@ -200,7 +200,6 @@ h6 {
 }
 .navbar .nav-whats:hover {
   color: #2957a3;
-  background-color: #fff;
 }
 
 .navbar a:hover:before,
@@ -218,7 +217,7 @@ h6 {
 .navbar .getstarted,
 .navbar .getstarted:focus {
   padding: 8px 25px;
-  margin-left: 30px;
+  margin-left: 20px;
   border-radius: 4px;
   color: #fff;
   border: 2px solid #fff;
@@ -344,7 +343,7 @@ h6 {
 }
 .navbar-mobile a,
 .navbar-mobile a:focus {
-  padding: 10px 20px;
+  padding: 5px 15px;
   font-size: 15px;
   color: #15222b;
 }
@@ -353,9 +352,14 @@ h6 {
 .navbar-mobile li:hover > a {
   color: #2957a3;
 }
+
+.navbar-mobile .getstarted {
+  color: #000000;
+  border-color: #000000;
+}
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
-  margin: 15px;
+  margin: 10px;
 }
 .navbar-mobile .dropdown ul {
   position: static;
@@ -1344,8 +1348,10 @@ ul {
 
 .wrapper .card .owlcar_name i {
   color: white;
-  padding-left: 90px;
+  float: right;
+  padding-right: 10px;
   padding-top: 7px;
+  font-size: 20px;
 }
 
 .owl-dots {
