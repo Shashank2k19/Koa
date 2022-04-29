@@ -195,6 +195,14 @@ h6 {
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
 }
+.navbar > ul > li > .nav-whatsap:before {
+  background-color: transparent;
+}
+.navbar .nav-whats:hover {
+  color: #2957a3;
+  background-color: #fff;
+}
+
 .navbar a:hover:before,
 .navbar li:hover > a:before,
 .navbar .active:before {
@@ -221,6 +229,7 @@ h6 {
   background: #2957a3;
   border-color: #2957a3;
 }
+
 .navbar > ul > li > .getstarted:before {
   visibility: hidden;
 }
