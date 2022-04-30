@@ -112,7 +112,9 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 .headerdealer {
-  background: rgba(21, 34, 43, 0.85);
+  /* black tint  
+  background: rgba(21, 34, 43, 0.85);*/
+  background: rgb(41, 87, 163, 0.8);
 }
 
 #header {
@@ -122,7 +124,7 @@ h6 {
 }
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(21, 34, 43, 0.85);
+  background: rgb(41, 87, 163, 0.8);
   padding: 10px 0;
 }
 #header .logo {
@@ -1573,4 +1575,7 @@ ul {
 .contact .info .phone:hover i {
   background: #2957a3;
   color: #fff;
+}
+.dealerHead :hover {
+  font-size: 15px;
 }
