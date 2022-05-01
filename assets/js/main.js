@@ -237,7 +237,7 @@
 
 // OWL Carousel
 
-$(".carousel").owlCarousel({
+$(".owl-carousel").owlCarousel({
   margin: 20,
   loop: true,
   autoplay: true,
