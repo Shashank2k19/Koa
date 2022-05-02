@@ -442,9 +442,15 @@ h6 {
 #hero h2 {
   color: #fff;
   margin-bottom: 20px;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 55px;
+  font-weight: 800;
 }
+
+#hero h2:hover {
+  font-size: 58px;
+  cursor: pointer;
+}
+
 #hero p {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
@@ -855,7 +861,7 @@ ul {
 #Products 
 ------------------------------------------------------*/
 #product {
-  background-color: #2957a3;
+  background-color: #8aafc5;
   color: #fff;
 }
 
