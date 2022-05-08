@@ -432,22 +432,25 @@ h6 {
 #hero .carousel-container .container {
   /* background-color: rgba(255, 255, 255, 0.6); */
   /* background-color: rgba(12, 13, 14, 0.6); */
-  height: 180px;
-  width: 720px;
-  padding-top: 20px;
+  width: 500px;
 }
+#hero .carousel-container .container:hover {
+  width: 600px;
+}
+
 #hero .container {
   text-align: center;
 }
 #hero h2 {
   color: #fff;
-  margin-bottom: 20px;
-  font-size: 55px;
+  margin-bottom: 100px;
+  font-size: 52px;
   font-weight: 800;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #hero h2:hover {
-  font-size: 58px;
+  font-size: 55px;
   cursor: pointer;
 }
 
@@ -535,6 +538,9 @@ h6 {
 @media (max-width: 768px) {
   #hero h2 {
     font-size: 28px;
+  }
+  #hero h2:hover {
+    font-size: 30px;
   }
   #hero .hero-whatsapp {
     margin-left: 0px;
@@ -861,7 +867,7 @@ ul {
 #Products 
 ------------------------------------------------------*/
 #product {
-  background-color: #8aafc5;
+  background-color: #e8f1f9;
   color: #fff;
 }
 
