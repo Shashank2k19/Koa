@@ -47,18 +47,30 @@
 .usage {
   padding: 10px 0 10px;
 }
+
+.usages .usage-items {
+  display: flex;
+  flex-direction: column;
+}
+
 .usages .usage-box {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 60px;
+  flex-direction: row-reverse;
+  align-items: flex-end;
   padding-top: 60px;
   width: 100%;
-  background: #fff;
-  /* box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08); */
 }
+.usages .usage-box-2 {
+  display: flex;
+  flex-direction: row;
+}
+
 .usages .usage-box img {
   width: 70px;
+}
+.usages .screw {
+  width: 250px;
+  align-items: center;
 }
 
 .usages .usage-box p {
@@ -66,7 +78,7 @@
   margin: 0;
   font-family: "Nunito", sans-serif;
   font-size: 12px;
-  padding-left: 10px;
+  padding-right: 15px;
 }
 
 .usages h4 {
@@ -137,4 +149,9 @@
 #screwabout button {
   background-color: #2957a3;
   color: #fff;
+}
+
+#usage {
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
