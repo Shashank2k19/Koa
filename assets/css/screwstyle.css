@@ -9,7 +9,7 @@
   text-transform: uppercase;
 }
 .screwabout h2 {
-  font-size: 24px;
+  font-size: 40px;
   font-weight: 700;
   color: #012970;
 }
@@ -120,9 +120,8 @@
 }
 
 .spec-img {
-  width: 290px;
-  margin-left: 120px;
-  margin-top: 15px;
+  width: 330px;
+  margin-left: 140px;
 }
 
 .aside-title p {
@@ -133,4 +132,9 @@
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #263d4d;
+}
+
+#screwabout button {
+  background-color: #2957a3;
+  color: #fff;
 }
