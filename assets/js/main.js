@@ -168,12 +168,17 @@
   /**
    * Preloader
    */
-  let preloader = select("#preloader");
-  if (preloader) {
-    window.addEventListener("load", () => {
-      preloader.remove();
-    });
-  }
+  // var preloader = document.getElementById("preloader");
+  // function myFunction() {
+  //   preloader.style.display = "none";
+  // }
+
+  // let preloader = select("#preloader");
+  // if (preloader) {
+  //   window.addEventListener("load", () => {
+  //     preloader.remove();
+  //   });
+  // }
 
   /**
    * Hero carousel indicators

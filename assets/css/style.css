@@ -60,15 +60,17 @@ h6 {
 --------------------------------------------------------------*/
 #preloader {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
+  width: 100%;
+  height: 100vh;
   background: #fff;
+  /* background: url("../assets/img/preloader.gif"); */
+  background-image: url("https://www.linkpicture.com/q/L-O-A-D-I-N-G.gif");
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 9999;
 }
-
+/*
 #preloader:before {
   content: "";
   position: fixed;
@@ -99,7 +101,7 @@ h6 {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
