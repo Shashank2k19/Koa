@@ -1,7 +1,12 @@
 .screwabout .content {
   background-color: #f6f9ff;
   padding: 40px;
+  padding-bottom: 90px;
 }
+#screwabout .content-box {
+  background-color: #f6f9ff;
+}
+
 .screwabout h3 {
   font-size: 14px;
   font-weight: 700;
@@ -12,10 +17,11 @@
   font-size: 40px;
   font-weight: 700;
   color: #012970;
+  padding-top: 50px;
 }
 .screwabout p {
-  margin: 15px 0 30px 0;
-  line-height: 24px;
+  margin: 20px 0 35px 0;
+  line-height: 25px;
 }
 .screwabout .btn-read-more {
   line-height: 0;
@@ -136,8 +142,12 @@
     padding-top: 12px;
   }
   #product_spec .spec-img {
-    margin-left: 35px;
     margin-top: 20px;
+    width: 100%;
+  }
+  #screwabout .product-img {
+    width: 90%;
+    margin-left: 0px;
   }
 }
 
@@ -171,6 +181,8 @@
 }
 
 #usage {
-  margin-top: 50px;
   margin-bottom: 50px;
+}
+#product_spec .table td {
+  text-align: center;
 }
