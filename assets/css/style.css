@@ -648,7 +648,8 @@ section {
 .content {
   font-size: 13px;
 }
-.content h3 {
+
+#product_spec h3 {
   font-weight: 600;
   font-size: 35px;
   color: #012970;
