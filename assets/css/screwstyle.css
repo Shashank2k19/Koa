@@ -22,6 +22,7 @@
 .screwabout p {
   margin: 20px 0 35px 0;
   line-height: 25px;
+  font-size: 16px;
 }
 .screwabout .btn-read-more {
   line-height: 0;
@@ -156,8 +157,7 @@
     width: 100%;
   }
   #screwabout .product-img {
-    width: 60%;
-    margin: 20%;
+    width: 100%;
   }
   .tabsalign ul li {
     padding-left: 5px;
@@ -175,9 +175,11 @@
   width: 100%;
 }
 .product-img {
-  width: 245px;
-  margin-left: 35%;
-  border-radius: 3px;
+  width: 100%;
+  margin-left: 0%;
+}
+.screwabout .container-fluid {
+  padding: 0px;
 }
 
 .aside-title p {
