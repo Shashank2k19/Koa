@@ -1,7 +1,6 @@
 .screwabout .content {
   background-color: #f6f9ff;
   padding: 40px;
-  padding-bottom: 90px;
 }
 #screwabout .content-box {
   background-color: #f6f9ff;
@@ -17,7 +16,7 @@
   font-size: 40px;
   font-weight: 700;
   color: #012970;
-  padding-top: 30px;
+  padding-top: 25px;
 }
 .screwabout p {
   margin: 20px 0 35px 0;
@@ -179,6 +178,9 @@
   margin-left: 0%;
 }
 .screwabout .container-fluid {
+  padding: 0px;
+}
+#product_spec .container-fluid {
   padding: 0px;
 }
 
