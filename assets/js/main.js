@@ -1,3 +1,8 @@
+$(function () {
+  $("#footer").load("footer.html");
+  $("#inner-header").load("inner_page_header.html");
+});
+
 (function () {
   "use strict";
 
@@ -269,51 +274,51 @@ $(".owl-carousel").owlCarousel({
  */
 
 // Form Blur Event Listeners
-document.getElementById("name").addEventListener("blur", validateName);
-document.getElementById("email").addEventListener("blur", validateEmail);
-document.getElementById("phone").addEventListener("blur", validatePhone);
-document.getElementById("whatsapp").addEventListener("blur", validatePwhatsapp);
+// document.getElementById("name").addEventListener("blur", validateName);
+// document.getElementById("email").addEventListener("blur", validateEmail);
+// document.getElementById("phone").addEventListener("blur", validatePhone);
+// document.getElementById("whatsapp").addEventListener("blur", validatePwhatsapp);
 
-function validateName() {
-  const name = document.getElementById("name");
-  const re = /^[a-zA-Z]{3,10}$/;
+// function validateName() {
+//   const name = document.getElementById("name");
+//   const re = /^[a-zA-Z]{3,10}$/;
 
-  if (!re.test(name.value)) {
-    name.classList.add("is-invalid");
-  } else {
-    name.classList.remove("is-invalid");
-  }
-}
+//   if (!re.test(name.value)) {
+//     name.classList.add("is-invalid");
+//   } else {
+//     name.classList.remove("is-invalid");
+//   }
+// }
 
-function validateEmail() {
-  const email = document.getElementById("email");
-  const re = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+// function validateEmail() {
+//   const email = document.getElementById("email");
+//   const re = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
 
-  if (!re.test(email.value)) {
-    email.classList.add("is-invalid");
-  } else {
-    email.classList.remove("is-invalid");
-  }
-}
+//   if (!re.test(email.value)) {
+//     email.classList.add("is-invalid");
+//   } else {
+//     email.classList.remove("is-invalid");
+//   }
+// }
 
-function validatePhone() {
-  const phone = document.getElementById("phone");
-  const re = /^\(?\d{3}\)?[-. ]?\d{3}[-. ]?\d{4}$/;
+// function validatePhone() {
+//   const phone = document.getElementById("phone");
+//   const re = /^\(?\d{3}\)?[-. ]?\d{3}[-. ]?\d{4}$/;
 
-  if (!re.test(phone.value)) {
-    phone.classList.add("is-invalid");
-  } else {
-    phone.classList.remove("is-invalid");
-  }
-}
+//   if (!re.test(phone.value)) {
+//     phone.classList.add("is-invalid");
+//   } else {
+//     phone.classList.remove("is-invalid");
+//   }
+// }
 
-function validatePwhatsapp() {
-  const phone = document.getElementById("whatsapp");
-  const re = /^\(?\d{3}\)?[-. ]?\d{3}[-. ]?\d{4}$/;
+// function validatePwhatsapp() {
+//   const phone = document.getElementById("whatsapp");
+//   const re = /^\(?\d{3}\)?[-. ]?\d{3}[-. ]?\d{4}$/;
 
-  if (!re.test(phone.value)) {
-    phone.classList.add("is-invalid");
-  } else {
-    phone.classList.remove("is-invalid");
-  }
-}
+//   if (!re.test(phone.value)) {
+//     phone.classList.add("is-invalid");
+//   } else {
+//     phone.classList.remove("is-invalid");
+//   }
+// }
