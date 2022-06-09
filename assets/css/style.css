@@ -70,38 +70,6 @@ h6 {
   background-position: center;
   z-index: 9999;
 }
-/*
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #2957a3;
-  border-top-color: #ffe9e3;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
-}
-
-@-webkit-keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-} */
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -122,7 +90,7 @@ h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 18px 0;
 }
 #header.header-scrolled,
 #header.header-inner-pages {
@@ -141,7 +109,7 @@ h6 {
   color: #fff;
 }
 .logo img {
-  max-height: 60px;
+  max-height: 55px;
 }
 
 /*--------------------------------------------------------------
