@@ -2,6 +2,13 @@
   background-color: #f6f9ff;
   padding: 40px;
 }
+
+.screwabout .content button {
+  color: #fff;
+  padding: 0.375rem 1.2rem;
+  border: 1px solid #fff;
+}
+
 #screwabout .content-box {
   background-color: #f6f9ff;
 }
@@ -16,7 +23,8 @@
   font-size: 40px;
   font-weight: 700;
   color: #012970;
-  padding-top: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .screwabout h3 {
   font-size: 18px;
